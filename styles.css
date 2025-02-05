@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: hsl(0, 0%, 96%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: blueviolet;
+    color: black;
+    padding: 20px;
+}
+
+/* Main Content */
+main {
+    margin: 20px;
+    padding: 20px;
+    background: blueviolet;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-item {
+    font-size: 1.2em;
+    background: #f8e3fd;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+/* Hover Effect */
+.list-item:hover {
+    background: #f990aecd;
+    cursor: pointer;
+}
+
+/* Input & Button */
+input,
+button {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+button {
+    background: palevioletred;
+    color: #f8e3fd;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #650660;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    background: rgb(192, 236, 255);
+    color: black;
+    padding: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
